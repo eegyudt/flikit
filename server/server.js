@@ -10,7 +10,8 @@ const port = process.env.PORT || 54321;
 
 //routes
 
-
+//middleware
+app.use(morgan('dev'));
 
 
 
